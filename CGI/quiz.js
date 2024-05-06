@@ -54,23 +54,14 @@ const questions =[
         ]
     },
     {
-        question: "What alternative measures beyond breakup could be effective in ceasing monopolistic activity",
+        question: "What are NOT alternative measures beyond breakup could be effective in ceasing monopolistic activity",
         answers: [
             {text: "Enhanced Antitrust Scrutiny of Mergers", correct: false},
             {text: "Interoperability and Data Portability Requirements", correct: false},
-            {text: "Put restructions on companies products", correct: true},
+            {text: "Put restrictions on companies products", correct: true},
             {text: "Non-Discrimination Rules for Platform Operators", correct: false},
         ]
-    },
-    {
-        question: "Monopoly",
-        answers: [
-            {text: "Enhanced Antitrust Scrutiny of Mergers", correct: false},
-            {text: "Interoperability and Data Portability Requirements", correct: false},
-            {text: "Put restructions on companies products", correct: true},
-            {text: "Non-Discrimination Rules for Platform Operators", correct: false},
-        ]
-    },
+    }
 ];
 
 const questionElement = document.getElementById("questions");
