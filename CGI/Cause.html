@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Remixcon (For the icons) -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="CGIstyle.css">   
+    <link rel="stylesheet" href="Cause.css">   
+
+    <title>CGI Project</title>
+</head>
+<body>
+    <header class="header">
+        <!-- Nav bar -->
+        <nav class="nav container">
+            <div class="nav__data">
+                <!-- logo for planet???? -->
+                <a href="index.html" class="nav__logo">
+                    <p style="color: #ffffff"></p>
+                        <i class="ri-planet-line"></i> E-FIVE
+                    </p>
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+
+            </div>
+            <!-- Nav menu -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Home</a></li>
+                    <li><a href="quiz.html" class="nav__link">Quiz</a></li>
+                    <li><a href="Citations.html" class="nav__link">Citation</a></li>
+
+                    <!-- DROPDOWN (If necessary) -->
+
+                    <!-- <li class="dropdown__item">
+                        <div class="nav__link">
+                            Games2<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+                    </li> -->
+
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdAxnEw4dRGx5bGfXglifHJ66cBp6Yd0HZUs82XjmlgVxF8BA/viewform?usp=sf_link" class="nav__link">Survery</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <!-- JS -->
+    <script src="mainbody.js"></script>
+
+    <!-- Content: main body -->
+    <div class="contentbody">
+        <div class="slides"> 
+            <div class="Description">
+                <h2>Monopoly, its not a game.</h2>
+                <p>In the capitalistic world, monopoly represents as a <span class="hightlight">"cheat"</span> in the system. It occurs when <span class="hightlight">one seller or producer gains the largest control over other competitors</span> in a particular sector or industry. Additionally, monopoly power is <span class="hightlight">controlling the prices</span> in the market also this power allows maintain prices above marginal costs.</p>
+                <div class="gap"></div>
+                <h2>Situation in Big tech</h2>
+                <p>Many Big-tech companies nowadays had major acquisitions in their past. It can be traced throughout these given graphs:</p>
+             </div>      
+        </div>
+        <div class="slides_graph">
+            <div class="Charts">
+                <div class="chart1">
+                    <canvas id="MetaACC"></canvas>
+                </div>
+            </div>
+            <div class="Description_graphs">
+                <h2>Acquisition by <i class="ri-meta-line"></i>Meta</h2>
+                <p>Overall: <span class="hightlight">86 acquisition</span></p>            
+            </div>  
+        </div>
+        <div class="slides_graph">
+            <div class="Description_graphs">
+                <h2>Acquisition by <i class="ri-windows-line"></i>Microsoft</h2>
+                <p>Overall: <span class="hightlight">217 acquisition</span></p>            
+            </div>  
+            <div class="Charts">
+                <div class="chart1">
+                    <canvas id="MSacc"></canvas>
+                </div>
+            </div>
+
+        </div>
+        <div class="slides_graph">
+            <div class="Charts">
+                <div class="chart1">
+                    <canvas id="Googleacc"></canvas>
+                </div>
+            </div>
+            <div class="Description_graphs">
+                <h2>Acquisition by <i class="ri-google-fill"></i>oogle</h2>
+                <p>Overall: <span class="hightlight">24 acquisition</span></p>            
+            </div>  
+        </div>
+        <div class="slides_graph">
+            <div class="Description_graphs">
+                <h2>Acquisition by <i class="ri-apple-line"></i>Apple</h2>
+                <p>Overall: <span class="hightlight">114 acquisition</span></p>            
+            </div>
+            <div class="Charts">
+                <div class="chart1">
+                    <canvas id="Appleacc"></canvas>
+                </div>
+            </div>      
+        </div>
+        <div class="slides">
+            <div class="hidden">
+                <div class="Description_end">
+                    <h2 class="heading2">Causes in monopolization</h2>
+                    <p>Usually, big tech companies conducted monopolistic reason in dominance. Some of these activities include:</p>
+                    <div class="pt">
+                        <p><i class="ri-flag-line"></i><span class="hightlight">Anti-competitive Acquisitions</span>: In neutralizing growing threats from startups, acquisitions is used as a strategy.</p>
+                        <p><i class="ri-hand"></i><span class="hightlight">Control Over Market Platforms</span>: Companies have been criticized for using their platform dominance to favor their own products over those of other sellers.</p>    
+                        <p><i class="ri-syringe-line"></i><span class="hightlight">Bundling and Tying</span>: Tech giants use their dominance in one area to force entry into another or bundle products to stifle competition.</p>    
+                        <p><i class="ri-database-2-line"></i><span class="hightlight">Data Dominance</span>: Big tech firms often control vast amounts of user data, which they can use to gain an unfair advantage over competitors.</p>
+                    </div>
+                </div>   
+            </div>  
+        </div>
+        <!-- Footer -->
+        <footer>
+            <div class="divider"></div>
+            <div class="footerContainer">
+                <div class="copyright">
+                    <p>Copyright &copy;2024; Designed by <span class="designer">Kwok Laam Pang</span></p>
+                    <p>Content presented by <span class="editor">Ermis Eymen, Raphael Jonathan</span></p>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.0-release/chart.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+        <script src="accdata/metaaccdata.js"></script>
+        <script src="accdata/googleaccdata.js"></script>
+        <script src="accdata/appleaccdata.js"></script>
+        <script src="accdata/microsoftaccdata.js"></script>
+        <script src="scroll.js"></script>
+    </div>
+
+</body>
+</html>

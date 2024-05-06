@@ -1,0 +1,78 @@
+.contentbody h1{
+    color:white;
+    font-size: 50px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.slides h2{
+    color:white;
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 550px;
+}
+
+.slides p{
+    color:white;
+    font-size: 12px;
+    font-weight: 300;
+    max-width: 550px;
+    margin-top: 20px;
+}
+
+.Description{
+    flex-direction: column;
+}
+
+/* canvas */
+
+canvas#lineChart {
+    background: white;
+    margin-top: none;
+    padding: 200;
+    height: 50vh; width: 40vw;
+    border-radius: 13px;
+}
+
+canvas#lineChartb {
+    background: white;
+    margin-top: none;
+    padding: 200;
+    height: 50vh; width: 40vw;
+    border-radius: 13px;
+}
+
+.slides{
+    padding: 100px;
+    height: 70vh;
+}
+
+@media screen and (max-width:1118px){
+    .slides{
+        flex-direction: column;
+    }
+    .slides h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    .contentbody h1{
+        font-size: 30px;
+        margin-top: 100px;
+    }
+    canvas#lineChart {
+        height: 30vh; width: 70vw;
+    }
+    canvas#lineChartb {
+        height: 30vh; width: 70vw;
+    }
+    .slides{
+        padding: 50px;
+        height: 65vh;
+    }
+    .slides p{
+        font-size: 12px;   
+    }
+}

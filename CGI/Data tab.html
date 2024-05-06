@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Remixcon (For the icons) -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="CGIstyle.css">   
+    <link rel="stylesheet" href="Data.css">   
+
+
+    <title>CGI Project</title>
+</head>
+<body>
+    <header class="header">
+        <!-- Nav bar -->
+        <nav class="nav container">
+            <div class="nav__data">
+                <!-- logo for planet???? -->
+                <a href="#" class="nav__logo">
+                    <p style="color: #ffffff"></p>
+                        <i class="ri-planet-line"></i> E-FIVE
+                    </p>
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+
+            </div>
+            <!-- Nav menu -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Home</a></li>
+                    <li><a href="Data tab.html" class="nav__link">Data</a></li>
+                    <li><a href="quiz.html" class="nav__link">Quiz</a></li>
+                    <li><a href="Citations.html" class="nav__link">Citation</a></li>
+
+                    <!-- DROPDOWN (If necessary) -->
+
+                    <!-- <li class="dropdown__item">
+                        <div class="nav__link">
+                            Games2<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+                    </li> -->
+
+                    <li><a href="" class="nav__link">Survery</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <!-- JS -->
+    <script src="mainbody.js"></script>
+
+    <!-- Content: main body -->
+    <div class="contentbody">
+        <h1>COLLECTED DATA</h1>
+        <div class="slides">
+            <div class="Charts">
+                <div class="chart1">
+                    <canvas id="lineChart"></canvas>
+                </div>
+            </div>
+            <div class="Description">
+                <h2>Acquisition of Infamous companies</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem distinctio velit dolores minima libero exercitationem illo quo quod cum aperiam, voluptate vero ut aspernatur ex excepturi debitis cupiditate error omnis!</p>            
+            </div>
+        </div>
+
+        <div class="slides">
+            <div class="Description">
+                <h2>WEEED</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem distinctio velit dolores minima libero exercitationem illo quo quod cum aperiam, voluptate vero ut aspernatur ex excepturi debitis cupiditate error omnis!</p>
+            </div>
+                        <div class="Chartsb">
+                <div class="chart2">
+                    <canvas id="lineChartb"></canvas>
+                </div>
+            </div>      
+        </div>
+
+        <!-- JS SCRIPT -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.0-release/chart.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+        <script src="data.js"></script>
+        <script src="data2.js"></script>
+
+        <!-- Footer -->
+        <footer>
+            <div class="divider"></div>
+            <div class="footerContainer">
+                <div class="copyright">
+                    <p>Copright &copy;2024; Designed by <span class="designer">Kwok Laam Pang</span></p>
+                    <p>Content presented by <span class="editor">Ermis Eymen, Raphael Jonathan</span></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+
+    
+</body>
+</html>

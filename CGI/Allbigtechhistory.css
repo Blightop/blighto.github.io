@@ -1,0 +1,37 @@
+.slides h2{
+    color:white;
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 200px;
+}
+.slides p{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    max-width: 1000px;
+    margin-top: 60px;
+}
+.Description{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.slides{
+    height: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width:1118px){
+    .slides h2{
+        font-size: 30px;
+    }
+    .slides p{
+        font-size: 20px;
+        padding: 30px;
+    }
+}

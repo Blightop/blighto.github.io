@@ -1,0 +1,145 @@
+.slides h2{
+    color:white;
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 650px;
+    margin: auto;
+}
+.slides p{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    max-width: 1000px;
+    margin-top: 7px;
+}
+.Description{
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+}
+.Description_end{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.gap{
+    margin: 70px;
+}
+.pt{
+    margin-top: 60px;
+}
+.heading2{
+    padding:20px;
+}
+.slides{
+    height: auto;
+    margin-bottom: 50px;
+}
+.slides_graph{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.slides_graph h2{
+    color:white;
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 650px;
+    margin: auto;
+}
+.slides_graph p{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    max-width: 1000px;
+    margin-top: 7px;
+}
+canvas#MetaACC {
+    background: white;
+    margin-top: none;
+    padding: 200;
+    height: 50vh; width: 40vw;
+    border-radius: 13px;
+}
+canvas#Googleacc {
+    background: white;
+    margin-top: none;
+    padding: 200;
+    height: 50vh; width: 40vw;
+    border-radius: 13px;
+}
+canvas#Appleacc {
+    background: white;
+    margin-top: none;
+    padding: 200;
+    height: 50vh; width: 40vw;
+    border-radius: 13px;
+}
+canvas#MSacc {
+    background: white;
+    margin-top: none;
+    padding: 200;
+    height: 50vh; width: 40vw;
+    border-radius: 13px;
+}
+.Description_graphs{
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(3%);
+    transition: all 0.5s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+@media screen and (max-width:1118px){
+    .slides_graph{
+        flex-direction: column;
+    }
+    .slides_graph h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    .contentbody h1{
+        font-size: 30px;
+        margin-top: 100px;
+    }
+    canvas#MetaACC {
+        height: 30vh; width: 70vw;
+    }
+    canvas#Googleacc {
+        height: 30vh; width: 70vw;
+    }
+    canvas#MSacc {
+        height: 30vh; width: 70vw;
+    }
+    canvas#Appleacc {
+        height: 30vh; width: 70vw;
+    }
+    .slides_graph{
+        padding: 50px;
+        height: 65vh;
+    }
+    .slides_graph p{
+        font-size: 19px;   
+    }
+    .slides h2{
+        font-size: 30px;
+    }
+    .slides p{
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+        margin: 20px;
+    }
+}

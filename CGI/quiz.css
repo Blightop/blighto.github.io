@@ -1,0 +1,83 @@
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(3%);
+    transition: all 0.5s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.app{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1{
+    font-weight: 25px;
+    color: black;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz{
+    padding: 20px 0;
+}
+
+.quiz h2{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+.btn{
+    background: rgb(224, 249, 255);
+    color: #222f36;
+    font-weight: 700;
+    width: 100%;
+    border: 2px solid #00d5ff;
+    padding: 10px;
+    box-shadow: inset;
+    margin: 10px 0;
+    text-align: Center;
+    border-radius: 90px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.btn:hover:not([disabled]){
+    transform: scale(1.05)
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    background: rgb(32, 37, 82);
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    display: none;
+    transition: all 0.2s;
+}
+
+#next-btn:hover{
+    transform: scale(1.1)
+}
+
+.correct{
+    background: rgb(198, 255, 157);
+}
+.incorrect{
+    background: rgb(255, 181, 181);
+}

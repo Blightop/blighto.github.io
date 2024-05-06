@@ -1,0 +1,45 @@
+.slides h2{
+    color:white;
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 650px;
+    margin: auto;
+}
+.slides p{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    max-width: 1000px;
+    margin-top: 7px;
+}
+.Description{
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.slides{
+    height: auto;
+    margin-bottom: 50px;
+}
+.heading2{
+    padding:20px;
+}
+.pt{
+    margin: 30px;
+}
+
+.gap1{
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width:1118px){
+    .Description h2{
+        padding: 20px;
+    }
+    .slides p{
+        margin: 20px;
+        max-width: 350px;
+        font-size: 20px;
+    }
+}
